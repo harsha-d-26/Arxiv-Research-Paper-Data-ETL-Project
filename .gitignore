@@ -1,0 +1,11 @@
+# .gitignore
+
+# Ignore sensitive data and local env
+.env
+__pycache__/
+*.pyc
+pgdata/
+*.db
+*.log
+*.sqlite3
+app/data/*.csv
