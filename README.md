@@ -48,11 +48,13 @@ cd arxiv-etl-project
 ```
 
 - Create a .env file and set Environment variables:
+```
 POSTGRES_USER=your_username
 POSTGRES_PASSWORD=your_password
 POSTGRES_DB=your_db
 POSTGRES_PORT=5432
 POSTGRES_HOST=your_postgres_container_name
+```
 
 - Download the dataset arXiv_scientific_dataset.csv from https://www.kaggle.com/datasets/sumitm004/arxiv-scientific-research-papers-dataset
 
@@ -67,9 +69,11 @@ docker-compose up --build
 ```bash
 docker exec -it <your_postgres_container_name> psql -U your_username -d your_db
 ```
+```
 SELECT * FROM category LIMIT 5;
 SELECT * FROM author LIMIT 5;
 SELECT * FROM papers LIMIT 5;
+```
 
 ## License
 This project is open-source for learning purposes.
