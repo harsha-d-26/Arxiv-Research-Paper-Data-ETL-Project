@@ -21,6 +21,7 @@ This project demonstrates an ETL pipeline using:
 - Docker Compose
 
 ## Project Structure
+```
 arxiv-etl-project/
 │
 ├── app/                          # Application source code
@@ -39,6 +40,7 @@ arxiv-etl-project/
 ├── docker-compose.yml            # Multi-container configuration
 │
 └── README.md                     # Project documentation
+```
 
 ## Instructions to run this Project
 - Clone the Repo:
